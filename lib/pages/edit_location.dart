@@ -38,7 +38,7 @@ class _EditDescriptionFormPageState extends State<EditDescriptionFormPage> {
                     child: Text(
                       "Your Location",
                       style:
-                      TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                     )),
                 Padding(
                     padding: const EdgeInsets.all(20),
@@ -59,10 +59,9 @@ class _EditDescriptionFormPageState extends State<EditDescriptionFormPage> {
                           decoration: const InputDecoration(
                               alignLabelWithHint: true,
                               contentPadding:
-                              EdgeInsets.fromLTRB(10, 15, 10, 100),
-                              hintMaxLines:1,
-                              hintText:
-                              'Write your Location'),
+                                  EdgeInsets.fromLTRB(10, 15, 10, 100),
+                              hintMaxLines: 1,
+                              hintText: 'Write your Location'),
                         ))),
                 Padding(
                     padding: const EdgeInsets.only(top: 50),
@@ -81,7 +80,8 @@ class _EditDescriptionFormPageState extends State<EditDescriptionFormPage> {
                             },
                             child: const Text(
                               'Update',
-                              style: TextStyle(fontSize: 15,color: Colors.white),
+                              style:
+                                  TextStyle(fontSize: 15, color: Colors.white),
                             ),
                           ),
                         )))
