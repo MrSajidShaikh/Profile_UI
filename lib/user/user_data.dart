@@ -8,8 +8,7 @@ class UserData {
   static const _keyUser = 'user';
 
   static User myUser = User(
-    image:
-    'assets/images/Dp.png',
+    image: "assets/images/Dp.png",
     name: 'XYZ',
     email: 'xyz@gmail.com',
     phone: '9876543210',
