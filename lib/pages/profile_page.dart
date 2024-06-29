@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-
 import '../user/user.dart';
 import '../user/user_data.dart';
 import '../widget/display_image_widget.dart';
