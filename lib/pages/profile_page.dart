@@ -152,7 +152,6 @@ class _ProfilePageState extends State<ProfilePage> {
         ],
       ));
 
-  // Refrshes the Page after updating user info.
   FutureOr onGoBack(dynamic value) {
     setState(() {});
   }
