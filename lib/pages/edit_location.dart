@@ -50,8 +50,9 @@ class _EditDescriptionFormPageState extends State<EditDescriptionFormPage> {
                           validator: (value) {
                             if (value == null ||
                                 value.isEmpty ||
-                                value.length > 200)
-                            return null;
+                                value.length > 200) {
+                              return null;
+                            }
                           },
                           controller: descriptionController,
                           textAlignVertical: TextAlignVertical.top,
