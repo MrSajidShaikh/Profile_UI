@@ -61,7 +61,7 @@ class _EditDescriptionFormPageState extends State<EditDescriptionFormPage> {
                               contentPadding:
                                   EdgeInsets.fromLTRB(10, 15, 10, 100),
                               hintMaxLines: 1,
-                              hintText: 'Write your Location'),
+                              hintText: 'your Location'),
                         ))),
                 Padding(
                     padding: const EdgeInsets.only(top: 50),
