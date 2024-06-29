@@ -9,7 +9,6 @@ import 'edit_image.dart';
 import 'edit_name.dart';
 import 'edit_phone.dart';
 
-// This class handles the Page to dispaly the user's info on the "Edit Profile" Screen
 class ProfilePage extends StatefulWidget {
   @override
   _ProfilePageState createState() => _ProfilePageState();
