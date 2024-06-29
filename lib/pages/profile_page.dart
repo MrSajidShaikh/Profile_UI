@@ -103,7 +103,6 @@ class _ProfilePageState extends State<ProfilePage> {
             ],
           ));
 
-  // Widget builds the About Me Section
   Widget buildAbout(User user) => Padding(
       padding: const EdgeInsets.only(bottom: 10),
       child: Column(
