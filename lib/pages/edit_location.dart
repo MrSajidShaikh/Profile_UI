@@ -36,7 +36,7 @@ class _EditDescriptionFormPageState extends State<EditDescriptionFormPage> {
                 const SizedBox(
                     width: 350,
                     child: Text(
-                      "What type of passenger\nare you?",
+                      "Your Location",
                       style:
                       TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                     )),
@@ -50,9 +50,7 @@ class _EditDescriptionFormPageState extends State<EditDescriptionFormPage> {
                           validator: (value) {
                             if (value == null ||
                                 value.isEmpty ||
-                                value.length > 200) {
-                              return 'Please describe yourself but keep it under 200 characters.';
-                            }
+                                value.length > 200)
                             return null;
                           },
                           controller: descriptionController,
